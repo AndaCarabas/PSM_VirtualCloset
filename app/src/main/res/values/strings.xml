@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">VirtualCloset</string>
+    <string name="home_label">Home</string>
+    <string name="closet_label">Closet</string>
+    <string name="outfits_label">Outfits</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment!</string>
+    <string name="err_msg_name_empty">Name field cannot be empty!</string>
+    <string name="err_msg_email_empty">Email field cannot be empty!</string>
+    <string name="err_msg_pass_empty">Password field cannot be empty!</string>
+    <string name="err_msg_confirm_pass_empty">Confirm Password field cannot be empty!</string>
+    <string name="err_msg_pass_mismatch">Password and Confirm Password does not match!</string>
+    <string name="register_successful">Register Successful</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="register_success">You are registered successfully</string>
+    <string name="please_click_back_again_to_exit">Please click back again to exit!</string>
+    <string name="read_storage_permision_denied">You denied permission for storage. You can allow it from settings.</string>
+    <string name="image_selection_failed">Image selection failed!</string>
+    <string name="err_msg_category_empty">Please choose category!</string>
+    <string name="item_added_successfully">Item added successfully.</string>
+    <string name="outfit_added_successfully">Outfit added successfully.</string>
+    <string name="err_msg_pattern_empty">Pattern must not be empty!</string>
+    <string name="err_msg_size_empty">Size field must not be empty!</string>
+    <string name="err_msg_style_empty">Please choose style!</string>
+    <string name="delete_dialog_msg">It will pe permanently deleted. Do you want to proceed?</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splashActivity">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.virtualcloset.ui.fragments.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/closet"
+        android:name="com.example.virtualcloset.ui.fragments.Closet"
+        android:label="fragment_closet"
+        tools:layout="@layout/fragment_closet" />
+    <fragment
+        android:id="@+id/outfits"
+        android:name="com.example.virtualcloset.ui.fragments.Outfits"
+        android:label="fragment_outfits"
+        tools:layout="@layout/fragment_outfits"
+        />
+    <activity
+        android:id="@+id/calendarActivity2"
+        android:name="com.example.virtualcloset.ui.activities.CalendarActivity"
+        android:label="activity_calendar"
+        tools:layout="@layout/activity_calendar" />
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.example.virtualcloset.ui.activities.SplashActivity"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.virtualcloset.ui.activities.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>
